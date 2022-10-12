@@ -3,13 +3,15 @@
   margin: 0;
   padding: 0;
 }
-darkModeColors {
-  --headerbackgroud: #1A1B23;
+:root{
+  --header-backgroud: #0A0A0A;
+  --name-firstLetter: #ff3a5e;
 }
+
 .header-container {
   /* background-color: rgb(26, 27, 35); */
-  background-color: var(--headerbackgroud);
-  color: aliceblue;
+  background-color: var(--header-backgroud) ;
+  color: #d8d8d8;
   display: flex;
   font-family: metr;
   height: 80px;
@@ -21,11 +23,44 @@ darkModeColors {
 
 .name {
   border: 1px solid red;
+  font-family: 'Roboto', sans-serif;
+  /* font-weight: 100; */
+  font-size: 1.6em;
+  letter-spacing: 0.1rem;
+}
+
+.name span {
+  color: var(--name-firstLetter);
+
+}
+
+
+.nav-container {
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 70%;
 }
 
 .links-container {
+  align-items: center;
+  justify-content:space-evenly;
   display: flex;
-  border: 1px solid red;
-  width: 300px;
-  
+  /* border: 1px solid red;  */
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  color: #d8d8d8;
+  list-style: none;
+}
+
+.links-container li {
+  /* border: 1px solid red; */
+  padding: 10px 20px;
+}
+
+.links-container :hover {
+  border-radius: 20px;
+  border: 1px solid #ff3a5e;
 }
