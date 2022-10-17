@@ -13,6 +13,11 @@ const Header = () => {
               {link}
             </li>
           ))}
+          <li>
+            <label htmlFor="">
+              <input type="checkbox" name="" id="" onchange="changeTheme" />
+            </label>
+          </li>
         </ul>
       </nav>
     </div>
