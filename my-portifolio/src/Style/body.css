@@ -1,3 +1,9 @@
+.darkTheme {
+  /* --header-backgroud: #151819; */
+  --background-body: #000000
+  --pink-color: #ed145b;
+}
+
 body {
   background-color: #000000;
   font-family: 'Roboto', sans-serif;
@@ -8,14 +14,19 @@ body {
 
 .body-container {
   display: flex;
+  align-items: center;
   /* justify-content: space-around ; */
   border: 1px solid red;
   height:90vh;
 }
 
 .text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   border: 1px solid red;
-  
+  height: 30vw;
+  padding: 30px;
   width: 60%;
   
 }
@@ -26,10 +37,26 @@ body {
   display: flex;
   border: 1px solid red;
   width: 40%;
+  height: 90vh;
 }
 
 .perfil-image {
   height: 30px;
+}
+
+.download-button {
+  background-color: transparent !important;
+  color: var(--pink-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid;
+  border-color: var(--pink-color);
+  /* text-decoration: none; */
+  width: 150px;
+  height: 50px;
+  letter-spacing: 0.4px;
+  cursor: pointer;
 }
 
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat');
