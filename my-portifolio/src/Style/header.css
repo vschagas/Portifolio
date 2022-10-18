@@ -4,8 +4,7 @@
 }
 
 .header-container {
-  /* background-color: rgb(26, 27, 35); */
-  background-color: var(--header-backgroud) ;
+  background-color: rgb(26, 27, 35);
   color: #d8d8d8;
   display: flex;
   font-family: metr;
