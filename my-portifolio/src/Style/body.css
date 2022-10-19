@@ -29,8 +29,11 @@ body {
   height: 30vw;
   padding: 30px;
   width: 60%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
   
-}
+};
 
 .dev-name {
   display: flex;
@@ -38,9 +41,15 @@ body {
   justify-content: space-around;
   /* border: 1px solid red; */
   height: 23vh;
-  letter-spacing: 1px;
-  
+  letter-spacing: 1px; 
 }
+
+.dev-name h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 2.2em;
+  /* color: #ff3a5e */
+};
 
 .image-container {
   align-items: center;
@@ -56,8 +65,8 @@ body {
 }
 
 .download-button {
-  background-color: transparent !important;
-  color: #ed145b;
+  background-color: transparent;
+  color: #ff3a5e;
   border-radius: 8px;
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
@@ -67,4 +76,10 @@ body {
   height: 50px;
   letter-spacing: 0.4px;
   cursor: pointer;
+  /* transition: 1s; */
 }
+
+.download-button :hover {
+  background-color: #d8d8d8;
+}
+  
