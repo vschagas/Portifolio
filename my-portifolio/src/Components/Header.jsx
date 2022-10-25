@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -10,7 +11,9 @@ const Header = () => {
         <ul className='links-container'>
           {links.map((link) => (
             <li key={link}>
-              {link}
+              <NavLink>
+                
+              </NavLink>
             </li>
           ))}
           <li>
